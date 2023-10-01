@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+  .custom-layout-lg {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .custom-layout-lg > *:not(.control-order:not(:first-of-type)) {
+    width: 100%;
+  }
+  .custom-layout-lg .control-order:first-of-type {
+    padding-bottom: 1rem;
+  }
+}/*# sourceMappingURL=custom.css.map */
