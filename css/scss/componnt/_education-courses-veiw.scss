@@ -1,0 +1,8 @@
+@use '../helpers/mixin' as *;
+
+.main.main-veiw {
+	padding-top: 5rem;
+	.sessions {
+		border-bottom: 2px solid black !important;
+	}
+}
