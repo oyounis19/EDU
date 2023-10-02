@@ -2,6 +2,10 @@
 
 .main.main-veiw {
 	padding-top: 5rem;
+	.nav-link.active {
+		color: black;
+		font-weight: 600;
+	}
 	.sessions {
 		border-bottom: 2px solid black !important;
 	}
